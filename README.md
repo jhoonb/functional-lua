@@ -124,8 +124,8 @@ return: boolean <br>
 
 Example:  <br>
 
-> replicate('a',5) -> {'a', 'a', 'a', 'a'} <br>
-> replicate({2}, 3) -> {{2}, {2}} <br>
+> replicate('a',5) -> {'a', 'a', 'a', 'a', 'a'} <br>
+> replicate({2}, 3) -> {{2}, {2}, {2}} <br>
 > replicate(2, 4) -> {2, 2, 2, 2}  <br>
 
 param x: number, string, table, function  <br>
