@@ -35,8 +35,8 @@ local random = math.random
 -- table that store functions module
 local functional = {}
 
-functional_TYPE = 'module'
-functional_NAME = 'functional'
+functional._TYPE = 'module'
+functional._NAME = 'functional'
 
 
 -- Function: Generate list of elements
