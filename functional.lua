@@ -18,15 +18,15 @@
 --
 --]]
 ---
--- FUNCTIONS  								RETURN 
--- | functional.map(f, ...) 				-> table
--- | functional.reduce(x[, op])				-> number
--- | functional.filter(f, x) 				-> table
--- | functional.range(from[, to, [step]] ) 	-> table
--- | functional.rangerandom(max[, m, [n]]) 	-> table 
--- | functional.any(f, x)					-> boolean
--- | functional.all(f, x)					-> boolean
--- | functional.replicate(x,y)				-> table
+-- FUNCTIONS | RETURN TYPE
+-- | functional.map(f, ...) -> table
+-- | functional.reduce(x[, op]) -> number
+-- | functional.filter(f, x) -> table
+-- | functional.range(from[, to, [step]] ) -> table
+-- | functional.rangerandom(max[, m, [n]]) -> table 
+-- | functional.any(f, x) -> boolean
+-- | functional.all(f, x) -> boolean
+-- | functional.replicate(x,y) -> table
 ------------------------------------------------------
 
 -- define local functions
@@ -307,5 +307,7 @@ function functional.replicate(x, y)
 	return aux
 end
 
--- end of functions
+-- return module
 return functional
+
+-- end
